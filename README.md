@@ -16,6 +16,16 @@ npx skills add thuaduc/agent-skills -g --all
 
 Get the latest version later with `npx skills update`.
 
+### Load it on every reply
+
+A skill loads only when the agent decides it applies, and agents often skip it for quick questions. In tests, Claude Opus loaded this skill in 1 of 4 fresh sessions on its own, and in 4 of 4 with this line in its global instructions:
+
+```text
+Before every reply to the user, load the writing-clear-replies skill and follow it.
+```
+
+Put it in `~/.claude/CLAUDE.md` for Claude Code, `~/.codex/AGENTS.md` for Codex, or your agent's global rules file.
+
 ## writing-clear-replies
 
 Makes the agent write replies an engineer can read in one pass, between other work.

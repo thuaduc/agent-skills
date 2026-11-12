@@ -1,6 +1,6 @@
 ---
 name: writing-clear-replies
-description: Use before sending any chat reply, status report, summary, explanation, plan recap, PR description or message that the user will read, and whenever the user asks what something means, asks for a shorter or higher-level version, or asks what to do next.
+description: Use for every reply to the user, before writing it, including short answers to quick questions, explanations, status reports, summaries, plan recaps, PR descriptions and messages, and whenever the user asks what something means, asks for a shorter or higher-level version, or asks what to do next.
 ---
 
 # Writing clear replies
